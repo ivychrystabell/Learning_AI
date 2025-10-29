@@ -1,0 +1,11 @@
+streamlit
+pandas
+matplotlib
+langchain==0.3.27
+langchain-groq==0.3.8
+langchain-community==0.3.30
+langchain-core==0.3.76
+python-dotenv
+langchain-experimental
+tabulate
+plotly.express

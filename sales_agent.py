@@ -32,7 +32,6 @@ def create_sales_agent(df: pd.DataFrame):
         temperature=0.2,
     )
 
-    # ⚠️ tambahkan allow_dangerous_code=True agar agent bisa eksekusi query analisis
     return create_pandas_dataframe_agent(
         llm,
         df,
